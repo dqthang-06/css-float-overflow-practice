@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục với Float và Overflow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bố cục trang với float và overflow</h1>
+
+    <!-- Khối container chứa 2 cột dùng float và overflow: hidden để ôm gọn phần tử con -->
+    <div class="container">
+        <div class="left-column">
+            <h3>Cột bên trái</h3>
+            <p>Sử dụng <code>float: left</code> với độ rộng 50% để dạt về phía bên trái màn hình.</p>
+        </div>
+        <div class="right-column">
+            <h3>Cột bên phải</h3>
+            <p>Sử dụng <code>float: right</code> với độ rộng 50% để dạt về phía bên phải màn hình.</p>
+        </div>
+    </div>
+
+    <!-- Khối giới hạn kích thước với overflow: auto để xuất hiện thanh cuộn khi nội dung dài -->
+    <div class="overflow-box">
+        <h4>Khối kiểm tra Overflow:</h4>
+        <p>
+            Đây là nội dung rất dài mà chúng ta dùng để kiểm tra thuộc tính <code>overflow: auto</code>. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+</body>
+</html>
